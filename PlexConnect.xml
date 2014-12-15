@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Name>PlexConnect</Name>
-  <Description>.</Description>
+  <Description>This is a Dockerfile setup for PlexConnect - https://github.com/iBaa/PlexConnect.<br>This is a fork from needo PlexConnect docker.<br><br>Please read instructions to use it because it use Port 80, you need to edit go file to move the Unraid WebUI to alternate port.<br><br>You can specify Alternate DNS server (ie: Geo-Unblocker DNS like Unotelly or Unblock-Us).</Description>
   <Registry>https://registry.hub.docker.com/u/pducharme/plexconnect/</Registry>
   <Repository>pducharme/plexconnect</Repository>
   <BindTime>true</BindTime>
