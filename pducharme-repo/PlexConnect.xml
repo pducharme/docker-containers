@@ -7,9 +7,7 @@
   [b][span style='color: #E80000;']Directions:[/span][/b][br]
     Note: PlexConnect by default use ports 80 and 443, Unraid WebUI also use port 80. You need to either use the other ports for PlexConnect and use Reverse-Proxy -OR- change the Unraid WebUI port by editing go file on boot device.[br]
     [b]/mnt/cache/appdata/plexconnect[/b] : this path is used to store the PlexConnect SSL Certificates.[br]
-    [b]DNS[/b] : Put the IP Address of an alternate DNS server (ie: Geo-Unblocker DNS like Unotelly or Unblock-Us).[br]
-    [b]HTTP_Port[/b] : Specify the Port you want PlexConnect to Listen (http) - Useful if you use ReverseProxy on same host. [br]
-    [b]HTTPS_Port[/b] : Specify the Port you want PlexConnect to Listen (https) - Useful if you use ReverseProxy on same host. [br]
+    [b]/config[/b] : this path is used to store the Settings.cfg outside of the Docker Container for easy edit.[br]
  </Description>
   <Registry>https://registry.hub.docker.com/u/pducharme/plexconnect/</Registry>
   <Repository>pducharme/plexconnect</Repository>
