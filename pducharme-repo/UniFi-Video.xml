@@ -45,8 +45,8 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/cache/appdata/unifi/</HostDir>
-      <ContainerDir>/var/lib/unifi</ContainerDir>
+      <HostDir>/mnt/cache/appdata/unifi-video/logs/</HostDir>
+      <ContainerDir>/var/log/unifi-video</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
