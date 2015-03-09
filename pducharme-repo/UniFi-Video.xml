@@ -2,7 +2,7 @@
 <Container>
   <Name>UniFi-Video</Name>
   <Description></Description>
-  <Registry>https://registry.hub.docker.com/u/pducharme/unifi-video/</Registry>
+  <Registry>https://registry.hub.docker.com/u/pducharme/UniFi-Video/</Registry>
   <Repository>pducharme/unifi-video</Repository>
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
@@ -10,7 +10,6 @@
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
-           22
       <Port>
         <HostPort>1935</HostPort>
         <ContainerPort>1935</ContainerPort>
@@ -42,7 +41,7 @@
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
-        <HostPort>8880</HostPort>
+        <HostPort>8881</HostPort>
         <ContainerPort>80</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>      
@@ -64,9 +63,14 @@
       <ContainerDir>/var/lib/unifi-video</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
+    <Volume>
+      <HostDir>/mnt/user/UnfiVideoShareForStorage</HostDir>
+      <ContainerDir>/videos</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
   </Data>
   <Version></Version>
-  <WebUI>http://[IP]:[PORT:8880]/manage</WebUI>
+  <WebUI>http://[IP]:[PORT:7080]/manage</WebUI>
   <Banner>http://i.imgur.com/dD9ub3n.png</Banner>
   <Icon>http://i.imgur.com/dD9ub3n.png</Icon>
 </Container>
