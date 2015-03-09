@@ -22,11 +22,6 @@
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
-        <HostPort>7443</HostPort>
-        <ContainerPort>7443</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-      <Port>
         <HostPort>7080</HostPort>
         <ContainerPort>7080</ContainerPort>
         <Protocol>tcp</Protocol>
