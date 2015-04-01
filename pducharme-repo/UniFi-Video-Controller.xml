@@ -11,13 +11,8 @@
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>1935</HostPort>
-        <ContainerPort>1935</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-      <Port>
-        <HostPort>7443</HostPort>
-        <ContainerPort>7443</ContainerPort>
+        <HostPort>6666</HostPort>
+        <ContainerPort>6666</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
@@ -26,13 +21,18 @@
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
-        <HostPort>6666</HostPort>
-        <ContainerPort>6666</ContainerPort>
+        <HostPort>7443</HostPort>
+        <ContainerPort>7443</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
-        <HostPort>554</HostPort>
-        <ContainerPort>554</ContainerPort>
+        <HostPort>7445</HostPort>
+        <ContainerPort>7445</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>7446</HostPort>
+        <ContainerPort>7446</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>      
       <Port>
@@ -40,16 +40,6 @@
         <ContainerPort>7447</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
-      <Port>
-        <HostPort>8881</HostPort>
-        <ContainerPort>80</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>      
-      <Port>
-        <HostPort>4443</HostPort>
-        <ContainerPort>443</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>      
     </Publish>
   </Networking>
   <Data>
