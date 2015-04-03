@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>SynaMan</Name>
+  <Description>
+    A remote file manager, a smart and secure way to share large files on the Internet.[br]
+    [b]/data[/b] : to connect to Unraid mnt/user.[br]
+ </Description>
+  <Registry>https://registry.hub.docker.com/u/pducharme/synaman/</Registry>
+  <Repository>pducharme/synaman</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>6060</HostPort>
+        <ContainerPort>6060</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/</HostDir>
+      <ContainerDir>/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version></Version>
+  <WebUI>http://[IP]:[PORT:6060]/</WebUI>
+  <Banner>http://i.imgur.com/aXdzX1v.png</Banner>
+  <Icon>http://i.imgur.com/klXXMjw.png</Icon>
+</Container>
+
