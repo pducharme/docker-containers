@@ -42,6 +42,16 @@
       <ContainerDir>/backup</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
+    <Volume>
+      <HostDir>/mnt/user/</HostDir>
+      <ContainerDir>/tmp</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/</HostDir>
+      <ContainerDir>/var/urbackup</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
   </Data>
   <Version></Version>
   <WebUI>http://[IP]:[PORT:55414]/</WebUI>
