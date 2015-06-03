@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+  <Beta>False</Beta>
+  <Category>Network:Web Network:DNS MediaServer:Video</Category>
   <Name>PlexConnect</Name>
   <Description>
   This is a Dockerfile setup for PlexConnect - https://github.com/iBaa/PlexConnect.[br]This is a fork from needo PlexConnect docker.[br][br]
@@ -52,4 +54,5 @@
   <Banner>http://i.imgur.com/aXdzX1v.png</Banner>
   <Icon>http://i.imgur.com/klXXMjw.png</Icon>
 </Container>
+
 
