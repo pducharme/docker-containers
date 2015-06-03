@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+  <Beta>False</Beta>
+  <Category>HomeAutomation: Network:Management</Category>
   <Name>UniFi-Video</Name>
   <Description></Description>
   <Registry>https://registry.hub.docker.com/u/pducharme/unifi-video-controller/</Registry>
@@ -64,3 +66,4 @@
   <Banner>http://i.imgur.com/dD9ub3n.png</Banner>
   <Icon>http://i.imgur.com/dD9ub3n.png</Icon>
 </Container>
+
