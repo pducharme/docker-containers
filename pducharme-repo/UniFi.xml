@@ -3,7 +3,7 @@
   <Beta>False</Beta>
   <Category>HomeAutomation: Network:Management</Category>
   <Name>UniFi</Name>
-  <Description></Description>
+  <Description>UniFi Controller software - Dockerize version of the popular UniFi Controller to control Wi-Fi Access Point from the company Ubiquiti Networks.</Description>
   <Registry>https://registry.hub.docker.com/u/pducharme/unifi/</Registry>
   <Repository>pducharme/unifi</Repository>
   <BindTime>true</BindTime>
