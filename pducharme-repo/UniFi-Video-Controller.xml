@@ -3,7 +3,7 @@
   <Beta>False</Beta>
   <Category>HomeAutomation: Network:Management</Category>
   <Name>UniFi-Video</Name>
-  <Description></Description>
+  <Description>Unifi Video Controller (NVR) is a NVR software from the company Ubiquiti Networks to use with their UniFi Video IP Cameras.  To use the latest BETA version, add a :beta in the Repository field in Advanced view.</Description>
   <Registry>https://registry.hub.docker.com/u/pducharme/unifi-video-controller/</Registry>
   <Repository>pducharme/unifi-video-controller</Repository>
   <BindTime>true</BindTime>
